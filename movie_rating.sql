@@ -1,3 +1,6 @@
+-- LeetCode 1341: Movie Rating
+-- Concept: JOIN + GROUP BY + Aggregation + ORDER BY + LIMIT + UNION ALL
+
 (
     SELECT u.name AS results
     FROM MovieRating mr
