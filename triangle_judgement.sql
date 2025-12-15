@@ -1,3 +1,6 @@
+-- LeetCode 610: Triangle Judgement
+-- Concept: CASE WHEN + Conditional Logic
+
 SELECT 
     x, 
     y, 
