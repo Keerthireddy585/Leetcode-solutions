@@ -1,3 +1,6 @@
+-- LeetCode 550: Game Play Analysis IV
+-- Concept: Self JOIN + DATE_ADD + MIN(subquery) + COUNT ratio + ROUND
+
 SELECT 
     ROUND(
         COUNT(a2.player_id) / COUNT(DISTINCT a1.player_id),
