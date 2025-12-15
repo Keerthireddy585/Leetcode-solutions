@@ -1,3 +1,6 @@
+-- LeetCode 1204: Last person to Fit in the Bus
+-- Concept: Window Function (SUM OVER) + ORDER BY + Subquery + LIMIT
+
 SELECT person_name
 FROM (
     SELECT
