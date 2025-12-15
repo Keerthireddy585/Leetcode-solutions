@@ -1,3 +1,6 @@
+-- LeetCode 3570: Find Books With No Available Copies
+-- Concept: INNER JOIN + IS NULL (active borrowings) + GROUP BY + HAVING COUNT() comparision
+
 SELECT
     lb.book_id,
     lb.title,
