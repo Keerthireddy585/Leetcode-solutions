@@ -1,3 +1,6 @@
+-- LeetCode 1731: The Number of Employees Which Report to Each Employee
+-- Concept: Self JOIN + GROUP BY + COUNT + AVG + ROUND
+
 SELECT
     m.employee_id,
     m.name,
