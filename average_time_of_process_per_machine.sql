@@ -1,3 +1,6 @@
+-- Leetcode 1661: Average Time of Process per Machine
+-- Concept: SELF JOIN + AVG + GROUP BY
+
 SELECT
     a.machine_id,
     ROUND(AVG(b.timestamp - a.timestamp), 3) AS processing_time
