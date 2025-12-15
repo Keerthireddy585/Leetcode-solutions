@@ -1,3 +1,6 @@
+-- LeetCode 1978: Employees Whose Manager Left the Company
+-- Concept: Subquery + NOT IN + NULL handling
+
 SELECT employee_id
 FROM Employees
 WHERE salary < 30000 
