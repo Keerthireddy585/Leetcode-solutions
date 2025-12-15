@@ -1,3 +1,6 @@
+-- LeetCode 1693: Daily Leads and Partners
+-- Concept: COUNT DISTINCT + GROUP BY
+
 SELECT
     date_id,
     make_name,
