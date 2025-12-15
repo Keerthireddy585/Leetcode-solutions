@@ -1,3 +1,6 @@
+-- LeetCode 1552: Find Products With Valid Serial Number
+-- Concept: REGEXP_LIKE (Regukar Expressions) + WHERE filtering + ORDER BY
+
 SELECT product_id, product_name, description
 FROM products
 WHERE REGEXP_LIKE(
