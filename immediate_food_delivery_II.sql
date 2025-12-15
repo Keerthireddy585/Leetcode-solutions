@@ -1,3 +1,6 @@
+-- LeetCode 1174: Immediate Food Delivery II
+-- Concept: Subquery + MIN() + JOIN + CASE WHEN + Percentage Calculation
+
 SELECT
     ROUND(
         SUM(
