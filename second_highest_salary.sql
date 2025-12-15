@@ -1,3 +1,6 @@
+-- LeetCode 176: Second Highest Salary
+-- Concept: Subquery + DISTINCT + ORDER BY + LIMIT/OFFSET
+
 SELECT(
     SELECT DISTINCT salary
     FROM Employee
