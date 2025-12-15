@@ -1,3 +1,6 @@
+-- LeetCode 1795: Rearrange Products Table
+-- Concept: UNION ALL + Row-to-Column Transformation (Unpivot)
+
 SELECT product_id, 'store1' AS store, store1 AS price
 FROM Products
 WHERE store1 IS NOT NULL
