@@ -1,3 +1,6 @@
+-- LeetCode 608: Tree Node
+-- Concept: CASE WHEN + Subquery + Tree Classification
+
 SELECT
     id,
     CASE
