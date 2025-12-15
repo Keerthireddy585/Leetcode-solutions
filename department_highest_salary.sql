@@ -1,3 +1,6 @@
+-- LeetCode 184: Department Highest Salary
+-- Concept: JOIN + SUBQUERY + GROUP BY
+
 SELECT 
     d.name AS Department,
     e.name AS Employee,
