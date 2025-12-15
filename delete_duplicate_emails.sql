@@ -1,3 +1,6 @@
+-- LeetCode 196: Delete Duplicate Emails
+-- Concept: SELF JOIN + DELETE
+
 DELETE p1
 FROM Person p1
 JOIN Person p2
