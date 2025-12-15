@@ -1,3 +1,6 @@
+-- LeetCode 1211: Queries Quality and Percentage
+-- Concept: GROUP BY + AVG + Conditional Aggregation + Percentage Calculation
+
 SELECT
     query_name,
     ROUND(AVG(rating * 1.0 / position), 2) AS quality,
