@@ -1,3 +1,6 @@
+-- LeetCode 1581: Customers Who Visited but Did Not Make Any Transactions
+-- Concept: LEFT JOIN + NULL check + GROUP BY
+
 SELECT
     v.customer_id,
     COUNT(*) AS count_no_trans
