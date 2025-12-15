@@ -1,3 +1,6 @@
+-- LeetCode 1070: Product Sales Analysis III
+-- Concept: GROUP BY + Subquery + JOIN
+
 SELECT
     s.product_id,
     s.year AS first_year,
