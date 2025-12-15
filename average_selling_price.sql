@@ -1,3 +1,5 @@
+-- Leetcode 1251: Average Selling Price
+-- Concept: LEFT JOIN + SUM + ROUND
 SELECT
     p.product_id,
     ROUND(
