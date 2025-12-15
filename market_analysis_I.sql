@@ -1,3 +1,6 @@
+-- LeetCode 1158: Market Analysis I
+-- Concept: LEFT JOIN + Conditional Filtering in JOIN + GROUP BY + COUNT
+
 SELECT
     u.user_id AS buyer_id,
     u.join_date,
