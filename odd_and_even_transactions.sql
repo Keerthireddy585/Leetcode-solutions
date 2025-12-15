@@ -1,3 +1,6 @@
+-- LeetCode 3220: Odd and Even Transactions
+-- Concept: GROUP BY + Conditional Aggregation + Modulo Operator
+
 SELECT
     transaction_date,
     SUM(CASE WHEN amount % 2 = 1 THEN amount ELSE 0 END) AS odd_sum,
