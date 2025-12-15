@@ -1,3 +1,6 @@
+-- LeetCode 1873: Calculate Special Bonus
+-- Concept: CASE + MOD + LIKE
+
 SELECT
     employee_id,
     CASE
