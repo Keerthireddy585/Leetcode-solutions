@@ -1,3 +1,6 @@
+-- LeetCode 585: Investment in 2016
+-- Concept: Subqueries + GROUP BY + HAVING + Tuple IN + Aggregation
+
 SELECT
     ROUND(SUM(tiv_2016), 2) AS tiv_2016
 FROM Insurance
