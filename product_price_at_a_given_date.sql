@@ -1,3 +1,6 @@
+-- LeetCode 1164: Product Price at a Given Date
+-- Concept: GROUP BY + Subquery + JOIN + UNION
+
 SELECT
     p.product_id,
     p.new_price AS price
