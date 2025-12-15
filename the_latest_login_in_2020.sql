@@ -1,3 +1,6 @@
+-- LeetCode 1890: The Latest Login in 2020
+-- Concept: WHERE Date Filtering + GROUP BY + MAX Aggregation
+
 SELECT
     user_id,
     MAX(time_stamp) AS last_stamp
