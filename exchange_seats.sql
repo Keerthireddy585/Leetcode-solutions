@@ -1,3 +1,6 @@
+-- LeetCode 626: Exchange Seats
+-- Concept: CASE WHEN + Modulo (%) + Row Reordering
+
 SELECT
     CASE
         WHEN id % 2 = 1 AND id < (SELECT COUNT(*) FROM Seat) THEN id + 1
