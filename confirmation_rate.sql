@@ -1,3 +1,6 @@
+-- LeetCode 1934: Confirmation Rate
+-- Concept: LEFT JOIN + CASE + AGGREGATION
+
 SELECT
     s.user_id,
     ROUND(
