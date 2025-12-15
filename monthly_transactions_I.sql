@@ -1,3 +1,6 @@
+-- LeetCode 1193: Monthly Transactions I
+-- Concept: GROUP BY + Date Formatting + Conditional Aggregation (CASE WHEN)
+
 SELECT
     DATE_FORMAT(trans_date, '%Y-%m') AS month,
     country,
