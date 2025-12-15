@@ -1,3 +1,6 @@
+-- LeetCode 1179: Reformat Department Table
+-- Concept: GROUP BY + Conditional Aggregation (CASE WHEN) + Pivoting Rows 
+
 SELECT
     id,
     SUM(CASE WHEN month = 'Jan' THEN revenue END) AS Jan_Revenue,
