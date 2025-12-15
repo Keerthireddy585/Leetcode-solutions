@@ -1,3 +1,6 @@
+-- LeetCode 3642: Find Books With Polarized Opinions
+-- Concept: JOIN + GROUP BY, MAX()-MIN() for rating spread, CASE WHEN + conditional aggregation, Ratio Calculation using SUM/COUNT
+
 SELECT
     b.book_id,
     b.title,
